@@ -21,7 +21,10 @@ export class Server {
       console.log(`Got request from ${req.headers['user-agent']}`);
       console.log(`Got request for ${req.url}`);
       await this.handleRequest(req, res);
+
       res.end();
+      // console.log('times called res.end');
+      // console.log((res.end as unknown as jest.Mock).mock.calls.length);
     });
     this.server.listen(8080);
     console.log('server started');

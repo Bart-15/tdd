@@ -1,11 +1,11 @@
 import { IncomingMessage, ServerResponse } from 'http';
+import { Authorizer } from '../../../app/server_app/auth/Authorizer';
 import { RegisterHandler } from '../../../app/server_app/handlers/RegisterHandler';
 import { Account } from '../../../app/server_app/model/AuthModel';
 import {
   HTTP_CODES,
   HTTP_METHODS,
 } from '../../../app/server_app/model/ServerModel';
-import { Authorizer } from './../../../app/server_app/auth/Authorizer';
 
 const getRequestBodyMock = jest.fn();
 

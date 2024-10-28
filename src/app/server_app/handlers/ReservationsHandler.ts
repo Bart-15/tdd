@@ -203,5 +203,13 @@ export class ReservationsHandler {
       user: undefined,
       id: undefined,
     };
+    const reservationKeys = Object.keys(genericReservation);
+    let hasRightKeys = true;
+    for (const key in reservation) {
+      if (!reservationKeys.includes(key)) {
+        hasRightKeys = false;
+      }
+    }
+    return hasRightKeys;
   }
 }

@@ -1,5 +1,7 @@
-import { PasswordChecker } from '../../app/pass_checker/PasswordChecker';
-import { PasswordErrors } from './../../app/pass_checker/PasswordChecker';
+import {
+  PasswordChecker,
+  PasswordErrors,
+} from '../../app/pass_checker/PasswordChecker';
 
 describe('Password test suite', () => {
   let sut: PasswordChecker;

@@ -1,4 +1,4 @@
-@token = b9cd511e79e2f9d1ea87
+@token = 033a928ef2e8cd760e51
 
 POST http://localhost:8080/reservation
 Authorization: {{token}}

@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Server app integration tests should take snapshot 1`] = `
+{
+  "endDate": "Tue Oct 29 2024",
+  "id": "12345",
+  "room": "someRoom",
+  "startDate": "Tue Oct 29 2024",
+  "user": "someUser",
+}
+`;
+
+exports[`Server app integration tests should take snapshot 2`] = `
+{
+  "endDate": "Tue Oct 29 2024",
+  "id": "12345",
+  "room": "someRoom",
+  "startDate": "Tue Oct 29 2024",
+  "user": "someUser",
+}
+`;
